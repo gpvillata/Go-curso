@@ -9,4 +9,5 @@ func main() {
 	fmt.Println("Estructura de controlers")
 	control.ImprimirFor()
 	control.ImprimirDo(10)
+	control.Imprimir()
 }

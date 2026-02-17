@@ -18,3 +18,16 @@ func ImprimirDo(n int) {
 		println("Hola mundo")
 	}
 }
+func Imprimir() {
+
+	for i := range 10 {
+		fmt.Println(i)
+	}
+}
+func ImprimirRange() {
+	for range 10 {
+		var i int = 0
+		fmt.Println("Bienvenidos", i)
+		i++
+	}
+}
